@@ -16,10 +16,10 @@ Setup: https://reactjs.org/docs/create-a-new-react-app.html
 3. Functional Test: These tests are more complex than the smoke tests. They're used for quality assurance to test the performance of your software. Cypress has various tools for these kinds of tests. Because the PSE website isn't super in depth I mainly used .click() and .location() for these. But .type() is also a popular function that could be used to test the functionality of text boxes.
 
 ### How to Run Locally
-
-1. In terminal run: npx cypress open
-2. Click E2E testing
-3. Choose a browser to run the tests in. I prefer Electron
-4. View your specs page and choose a file you'd like to run (i.e smoke or functional)
-5. Tests will run once you click on the file. To take a deeper dive into the tests click on each individual test and scroll to see what it's doing
+1. Clone the repo. Refer to: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+2. In terminal run: npx cypress open
+3. Click E2E testing
+4. Choose a browser to run the tests in. I prefer Electron
+5. View your specs page and choose a file you'd like to run (i.e smoke or functional)
+6. Tests will run once you click on the file. To take a deeper dive into the tests click on each individual test and scroll to see what it's doing
 
