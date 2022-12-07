@@ -1,5 +1,7 @@
-## Cypress Testing Pi Sigma Epsilon Professional Fraternity Website:
-#### https://pse-umich.org/
+# Cypress Testing Pi Sigma Epsilon Professional Fraternity Website:
+## https://pse-umich.org/
+
+I decided to use a react app for the basis of the cypress testing. It streamlined the download and run proccesses for my tests
 
 ### Framework:
 
