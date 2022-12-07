@@ -9,7 +9,7 @@ Setup: https://reactjs.org/docs/create-a-new-react-app.html
 
 ### Framework:
 
-1. The first step is to run the cypress tests on the PSE website. It's faily simple because it's already hosted. Prior to running each cypress test cy.visit must be set the https://pse-umich.org/. This can be automated by using the beforeEach function.
+1. The first step is to run the cypress tests on the PSE website. It's fairly simple because it's already hosted. Prior to running each cypress test cy.visit must be set the https://pse-umich.org/. This can be automated by using the beforeEach function.
 
 2. Smoke Test: This is simple feature testing. Essentially making sure everything that's supposed to be there is actually there. Cypress make this easy by using the .get() and find() funtions. These can be called on specific elements or classes.
 
