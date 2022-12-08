@@ -18,5 +18,12 @@ context('My First Tests', () => {
   it('Timeline Dates Rendering', () => {
     cy.get('.timeline').find('h4').should('exist')
   })
-
+  it('FAQ Dropdown on apply page', () => {
+    cy.visit('https://pse-umich.org/apply')  
+    cy.get('details').eq(1).should('be.visible')
+    cy.get('details').eq(2).should('be.visible')
+    cy.get('details').eq(3).should('be.visible')
+    cy.get('details').eq(4).should('be.visible')
+    cy.get('details').eq(5).should('be.visible')
+  })
 })
